@@ -58,6 +58,7 @@ body {
 
 .border2:hover {
     border: 2px solid lightskyblue;
+    background-color: white;
 }
 
 /* box 2 */
@@ -262,6 +263,9 @@ body {
     flex-wrap: wrap;
 }
 
+
+
+
 .box {
     height: 350px;
     width: 23%;
@@ -387,7 +391,7 @@ body {
 .pic2 {
     height: 1fr;
     width: 1fr;
-    background-image: url("https://m.media-amazon.com/images/I/21W7-lndINL._SY75_.jpg" );
+    background-image: url("https://m.media-amazon.com/images/I/21W7-lndINL._SY75_.jpg");
     background-size: cover;
 }
 
@@ -398,7 +402,7 @@ body {
     background-size: cover;
 }
 
-.pic4{
+.pic4 {
     height: 1fr;
     width: 1fr;
     background-image: url("https://m.media-amazon.com/images/I/217GQ1a2QzL._SY75_.jpg");
@@ -487,4 +491,56 @@ body {
     width: 1fr;
     background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_health-beauty_B07662GN57_01.23._SY116_CB619238939_.jpg");
     background-size: cover;
+}
+
+/* footer */
+
+footer {
+    margin: 0px;
+    padding: 0px;
+}
+
+.back-to-top {
+    background-color: #37475a;
+    height: 49px;
+    width: 100%;
+    text-align: center;
+    padding-top: 17px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.footer-top {
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-box {
+    height: 130px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    border-top: 0.1px solid lightgray;
+    border-bottom: 0.1px solid lightgray;
+}
+
+.sign {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.button{
+    height:50px;
+}
+.button button{
+    height: 40px;
+    width:20%;
+    border-radius: 50px;
+    background-color: #ffd814;
 }
